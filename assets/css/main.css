@@ -20,6 +20,14 @@ body {
 	line-height: 1.75em;
 }
 
+body, html {
+	/* blokování kopírování obsahu */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 	-moz-animation: none !important;
 	-webkit-animation: none !important;
@@ -812,7 +820,7 @@ ul.icons li .icon:before {
 	margin: 0;
 }
 
-#header .avatar  {
+.avatar  {
 	margin: 0 0 1em 0;
 	width: 6.25em;
 	border-radius: 50%;
@@ -1094,7 +1102,6 @@ header .major h2 {
 	.fab, .fa {
 		color: #9E9E9E;
 	}
-
 }
 
 /* Small */
