@@ -52,10 +52,6 @@ article, footer, header, menu, section {
 	display: block;
 }
 
-.article h3 {
-	font-weight: 600;
-}
-
 a {
 	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -746,6 +742,7 @@ ul.icons li .icon:before {
 
 .work-item h3 {
 	font-size: 1em;
+	font-weight: 600;
 	margin: 0 0 0.5em 0;
 }
 
