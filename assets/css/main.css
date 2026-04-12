@@ -129,6 +129,35 @@ h6 {
 }
 
 
+/***************************************/
+/*              SWITCHER               */
+/***************************************/
+.lang-switcher {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	z-index: 1000;
+	display: flex;
+	gap: 0.4rem;
+}
+
+.lang-switcher button {
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	background: rgba(0, 0, 0, 0.35);
+	color: #ffffff;
+	padding: 0.35rem 0.65rem;
+	border-radius: 0.35rem;
+	font-size: 0.8rem;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.lang-switcher button:hover,
+.lang-switcher button.active {
+	background: #5c8aae;
+	border-color: #5c8aae;
+}
+
 
 /***************************************/
 /*              CONTAINER              */
@@ -1007,10 +1036,6 @@ header .major h2 {
 		font-size: 1.25em;
 	}
 
-	#header h1 br {
-		display: none;
-	}
-
 	#header > .inner {
 		margin-bottom: 0;
 	}
@@ -1169,10 +1194,6 @@ header .major h2 {
 
 	#header {
 		padding: 4.5em 1.5em;
-	}
-
-	#header h1 br {
-		display: none;
 	}
 
 	#footer .copyright li {
