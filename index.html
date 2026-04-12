@@ -1,12 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
 	<head>
-
 		<title>MarWen</title>
 
 		<meta property="og:title" content="MarWen">
-		<meta name="og:description" content="Portfolio webů MarWen. Chtěli byste web? Rádi vám pomůžeme.">
+		<meta name="description" id="meta-description" content="Portfolio webů MarWen. Chtěli byste web? Rádi vám pomůžeme.">
+		<meta property="og:description" id="og-description" content="Portfolio webů MarWen. Chtěli byste web? Rádi vám pomůžeme.">
 		<meta property="og:image" content="images/future.webp">
 		<meta property="og:url" content="https://mar6wen8.github.io/MarWen">
 
@@ -21,98 +20,90 @@
 	</head>
 
 	<body class="is-preload">
+		<div class="lang-switcher" aria-label="Language switcher">
+			<button type="button" data-lang="cs">CS</button>
+			<button type="button" data-lang="en">EN</button>
+		</div>
 
 		<header id="header">
 			<div class="inner">
 				<img class="avatar" src="images/avatar.webp" alt="avatar">
-				<h1><strong>We are MarWen</strong>,<br>
-					and we specialize in<br> HTML, CSS, TailwindCSS, JavaScript, Python, Django, and MySQL</a>.</h1>
+				<h1 data-i18n="hero.title">
+					<strong>We are MarWen</strong>,
+					<br>
+					and we specialize in
+					<br> 
+					HTML, CSS, TailwindCSS, JavaScript, Python, Django, and MySQL.
+				</h1>
 			</div>
 		</header>
 
 		<div id="main">
-
 			<section id="one">
 				<header class="major">
-					<h2>WELCOME TO US</h2>
+					<h2 data-i18n="about.title">WELCOME TO US</h2>
 				</header>
-				<p>We are two young women junior programmers, and this is what we do in our free time.</p>
-				<p>VendaCiki - Frontend and xSilence8x - Backend</p>
-				<p>We are team MarWen</p>
+				<p data-i18n="about.description">We are two young women junior programmers, and this is what we do in our free time.</p>
+				<p data-i18n="about.roles">VendaCiki - Frontend and xSilence8x - Backend</p>
+				<p data-i18n="about.team">We are team MarWen</p>
 			</section>
 
 			<section id="two">
-				<h2>Recent Work</h2>
+				<h2 data-i18n="work.title">Recent Work</h2>
 				<div class="row">
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://udrzujeme-hroby.cz" target="_blank" class="image fit thumb"><img src="images/06.webp" alt=""></a>
-						<h3>Údržba hrobů</h3>
-						<p>Don't have time? Or are you unable due to health reasons? We'd be happy to help.</p>
+						<h3 data-i18n="work.graves.title">Údržba hrobů</h3>
+						<p data-i18n="work.graves.description">Don't have time? Or are you unable due to health reasons? We'd be happy to help.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://marwen.pythonanywhere.com" target="_blank" class="image fit thumb"><img src="images/05.webp" alt="Riddler"></a>
-						<h3>Riddler Quiz</h3>
-						<p>Do you like quizzes? This is the one for you.</p>
+						<h3 data-i18n="work.riddler.title">Riddler Quiz</h3>
+						<p data-i18n="work.riddler.description">Do you like quizzes? This is the one for you.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://putovani-brnem.unas.cz" target="_blank" class="image fit thumb"><img src="images/02.webp" alt="Putování Brnem"></a>
-						<h3>Putování Brnem</h3>
-						<p>Places we definitely need to visit in Brno.</p>
+						<h3 data-i18n="work.brno.title">Putování Brnem</h3>
+						<p data-i18n="work.brno.description">Places we definitely need to visit in Brno.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="http://www.english.chytrak.cz" target="_blank" class="image fit thumb"><img src="images/01.webp" alt="Angličtina hrou"></a>
-						<h3>Angličtina hrou</h3>
-						<p>Not just fun learning English.</p>
+						<h3 data-i18n="work.english.title">Angličtina hrou</h3>
+						<p data-i18n="work.english.description">Not just fun learning English.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://vendaciki.github.io/Co_uvarime/" target="_blank" class="image fit thumb"><img src="images/03.webp" alt="Co uvaříme"></a>
-						<h3>Co uvaříme?</h3>
-						<p>Recipes for delicious meals.</p>
+						<h3 data-i18n="work.cooking.title">Co uvaříme?</h3>
+						<p data-i18n="work.cooking.description">Recipes for delicious meals.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="http://www.archivkesi.unas.cz" target="_blank" class="image fit thumb"><img src="images/04.webp" alt="Archiv keší"></a>
-						<h3>Archiv keší</h3>
-						<p>Archived geocaches in geocaching for the South Moravian Region.</p>
+						<h3 data-i18n="work.cache.title">Archiv keší</h3>
+						<p data-i18n="work.cache.description">Archived geocaches in geocaching for the South Moravian Region.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="http://www.traveling.unas.cz" target="_blank" class="image fit thumb"><img src="images/07.webp" alt="Cestovatelský blog"></a>
-						<h3>Cestovatelský blog</h3>
-						<p>A travel blog about our journeys. You might even find inspiration for your own adventure.</p>
+						<h3 data-i18n="work.travel.title">Cestovatelský blog</h3>
+						<p data-i18n="work.travel.description">A travel blog about our journeys. You might even find inspiration for your own adventure.</p>
 					</article>
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://neveselyelektrikar.cz" target="_blank" class="image fit thumb"><img src="images/08.webp" alt="Neveselý Miroslav - elektrikář"></a>
-						<h3>Neveselý elektrikář</h3>
-						<p>Electrical installations, repairs, and maintenance for houses, apartments, and businesses.</p>
+						<h3 data-i18n="work.electrician.title">Neveselý elektrikář</h3>
+						<p data-i18n="work.electrician.description">Electrical installations, repairs, and maintenance for houses, apartments, and businesses.</p>
 					</article>
-					<!-- <article class="col-4 col-12-xsmall work-item">
-						<a href="" target="_blank" class="image fit thumb"><img src="images/06.webp" alt=""></a>
-						<h3>Risus ornare lacinia</h3>
-						<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-					</article> -->
 				</div>
 			</section>
 
 			<section id="three">
-				<h2>Collaborators</h2>
+				<h2 data-i18n="collaborators.title">Collaborators</h2>
 				<div class="row">
 					<article class="col-4 col-12-xsmall work-item">
 						<a href="https://www.div.cz" target="_blank" class="image fit thumb"><img src="images/co01.webp" alt="div"></a>
 						<h3>DIV.CZ</h3>
-						<p>Not just a movie database, but also for books and games.</p>
+						<p data-i18n="collaborators.div.description">Not just a movie database, but also for books and games.</p>
 					</article>
-					<!-- <article class="col-4 col-12-xsmall work-item">
-						<a href="" target="_blank" class="image fit thumb"><img src="" alt=""></a>
-						<h3></h3>
-						<p></p>
-					</article>
-					<article class="col-4 col-12-xsmall work-item">
-						<a href="" target="_blank" class="image fit thumb"><img src="" alt=""></a>
-						<h3></h3>
-						<p></p>
-					</article> -->
 				</div>
 			</section>
-
 		</div>
 
 		<footer id="footer">
@@ -120,9 +111,7 @@
 				<ul class="icons">
 					<li><a href="https://github.com/vendaciki" target="_blank" title="VendaCiki" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
 					<li><a href="https://github.com/xSilence8x" target="_blank" title="xSilence8x" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
-					<!-- <li><a href="" target="_blank" aria-label="FaceBook"><i class="fab fa-facebook"></i></a></li>
-                	<li><a href="" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li> -->
-                	<li><a href="mailto:mar6wen8@gmail.com" target="_blank" aria-label="e-mail"><i class="fa fa-envelope"></i></a></li>
+					<li><a href="mailto:mar6wen8@gmail.com" target="_blank" aria-label="e-mail"><i class="fa fa-envelope"></i></a></li>
 				</ul>
 				<ul class="copyright">
 					<li>&copy; 2023 <a href="https://mar6wen8.github.io/MarWen">WarWen</a></li>
@@ -135,10 +124,104 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			(function () {
+				const translations = {
+					cs: {
+						"meta.description": "Portfolio webů MarWen. Chtěli byste web? Rádi vám pomůžeme.",
+						"hero.title": "<strong>Jsme MarWen</strong>,<br>a specializujeme se na<br> HTML, CSS, TailwindCSS, JavaScript, Python, Django a MySQL.",
+						"about.title": "VÍTEJTE U NÁS",
+						"about.description": "Jsme dvě mladé junior programátorky a tomuhle se věnujeme ve volném čase.",
+						"about.roles": "VendaCiki - Frontend a xSilence8x - Backend",
+						"about.team": "Jsme tým MarWen",
+						"work.title": "Naše práce",
+						"work.graves.title": "Údržba hrobů",
+						"work.graves.description": "Nemáte čas? Nebo vám to zdravotní stav nedovolí? Rádi pomůžeme.",
+						"work.riddler.title": "Riddler Quiz",
+						"work.riddler.description": "Máte rádi kvízy? Tenhle je přesně pro vás.",
+						"work.brno.title": "Putování Brnem",
+						"work.brno.description": "Místa, která v Brně rozhodně musíme navštívit.",
+						"work.english.title": "Angličtina hrou",
+						"work.english.description": "Nejen zábavná výuka angličtiny.",
+						"work.cooking.title": "Co uvaříme?",
+						"work.cooking.description": "Recepty na chutná jídla.",
+						"work.cache.title": "Archiv keší",
+						"work.cache.description": "Archivované kešky v geocachingu pro Jihomoravský kraj.",
+						"work.travel.title": "Cestovatelský blog",
+						"work.travel.description": "Cestovatelský blog o našich výpravách. Možná v něm najdete i inspiraci na vlastní dobrodružství.",
+						"work.electrician.title": "Neveselý elektrikář",
+						"work.electrician.description": "Elektroinstalace, opravy a údržba pro domy, byty i firmy.",
+						"collaborators.title": "Spolupráce",
+						"collaborators.div.description": "Nejen filmová databáze, ale i knihy a hry."
+					},
+					en: {
+						"meta.description": "MarWen web portfolio. Need a website? We'd be happy to help.",
+						"hero.title": "<strong>We are MarWen</strong>,<br>and we specialize in<br> HTML, CSS, TailwindCSS, JavaScript, Python, Django, and MySQL.",
+						"about.title": "WELCOME TO US",
+						"about.description": "We are two young junior programmers, and this is what we do in our free time.",
+						"about.roles": "VendaCiki - Frontend and xSilence8x - Backend",
+						"about.team": "We are team MarWen",
+						"work.title": "Recent Work",
+						"work.graves.title": "Grave Maintenance",
+						"work.graves.description": "Don't have time? Or are you unable due to health reasons? We'd be happy to help.",
+						"work.riddler.title": "Riddler Quiz",
+						"work.riddler.description": "Do you like quizzes? This is the one for you.",
+						"work.brno.title": "Wandering Through Brno",
+						"work.brno.description": "Places we definitely need to visit in Brno.",
+						"work.english.title": "English Through Play",
+						"work.english.description": "Not just fun learning English.",
+						"work.cooking.title": "What Shall We Cook?",
+						"work.cooking.description": "Recipes for delicious meals.",
+						"work.cache.title": "Geocache Archive",
+						"work.cache.description": "Archived geocaches in the South Moravian Region.",
+						"work.travel.title": "Travel Blog",
+						"work.travel.description": "A travel blog about our journeys. You might even find inspiration for your own adventure.",
+						"work.electrician.title": "Nevesely Electrician",
+						"work.electrician.description": "Electrical installations, repairs, and maintenance for houses, apartments, and businesses.",
+						"collaborators.title": "Collaborators",
+						"collaborators.div.description": "Not just a movie database, but also for books and games."
+					}
+				};
 
+				const buttons = document.querySelectorAll(".lang-switcher button");
+				const translatableElements = document.querySelectorAll("[data-i18n]");
+				const metaDescription = document.getElementById("meta-description");
+				const ogDescription = document.getElementById("og-description");
+
+				function setLanguage(lang) {
+					const language = translations[lang] ? lang : "en";
+					const dictionary = translations[language];
+
+					document.documentElement.lang = language;
+					localStorage.setItem("preferredLanguage", language);
+
+					translatableElements.forEach((element) => {
+						const key = element.getAttribute("data-i18n");
+						if (dictionary[key]) {
+							element.innerHTML = dictionary[key];
+						}
+					});
+
+					if (dictionary["meta.description"]) {
+						metaDescription.setAttribute("content", dictionary["meta.description"]);
+						ogDescription.setAttribute("content", dictionary["meta.description"]);
+					}
+
+					buttons.forEach((button) => {
+						button.classList.toggle("active", button.getAttribute("data-lang") === language);
+					});
+				}
+
+				buttons.forEach((button) => {
+					button.addEventListener("click", function () {
+						setLanguage(this.getAttribute("data-lang"));
+					});
+				});
+
+				const savedLanguage = localStorage.getItem("preferredLanguage");
+				const browserLanguage = (navigator.language || "en").toLowerCase().startsWith("cs") ? "cs" : "en";
+				setLanguage(savedLanguage || browserLanguage);
+			})();
+		</script>
 	</body>
 </html>
-
-
-
-
